@@ -8,6 +8,7 @@ function calculateFizzBuzz (total, byFirst, bySecond) {
 
     updateLog(`Running FizzBuzz with ${total} ${byFirst} and ${bySecond}`);
 
+    third = byFirst * bySecond
     for (var i = 1; i < total; i++) {
 
         if (i % byFirst === 0) {
