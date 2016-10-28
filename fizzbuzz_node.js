@@ -20,7 +20,7 @@ function calculateFizzBuzz (total, byFirst, bySecond) {
             updateLog('fizz');
         } else if (i % bySecond === 0) {
             updateLog('buzz');
-         } else if (i % third === 0) {
+        } else if (i % third === 0) {
             updateLog('fizzbuzz');
         } else {
             updateLog(i);
